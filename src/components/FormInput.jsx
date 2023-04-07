@@ -5,7 +5,7 @@ const FormInput = (props) => {
     const handleFocus = (e) => {
         setFocused(true);
     }
-    const {label, errorMessage, onChange, id, ...inputProps} = props
+    const {label, onChange, errorMessage, id, ...inputProps} = props
     return (
         <div className="formInput">
         <label>{label}</label>
